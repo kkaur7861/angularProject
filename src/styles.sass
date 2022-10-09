@@ -1,1 +1,64 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap'
+
+
+body
+  font-family: "Open Sans", sans-serif,
+  background: #0c0b09,
+  color: #fff,
+
+
+a
+  color: var(--primary),
+  text-decoration: none,
+
+
+a:hover
+  color: var(--primary-light),
+  text-decoration: none,
+
+
+h1, h2, h3, h4, h5, h6
+  font-family: "Playfair Display", serif,
+
+
+.section-title
+    padding-bottom: 30px 
+
+    h2 
+        font-size: 14px 
+        font-weight: 500 
+        padding: 0px 
+        line-height: 1px 
+        margin: 0px 0px 5px 
+        letter-spacing: 2px 
+        text-transform: uppercase 
+        color: rgb(170, 170, 170) 
+        font-family: Poppins, sans-serif 
+        text-align: start
+
+    h2::after 
+        content: "" 
+        width: 120px 
+        height: 1px 
+        display: inline-block 
+        background: rgba(255, 255, 255, 0.2) 
+        margin: 4px 10px
+
+    p 
+        margin: 0px 
+        font-size: 36px 
+        font-weight: 700 
+        font-family: "Playfair Display", serif 
+        color: #f36523 
+        text-align: start
+.round-btn
+    background: #cda45e
+    border: 0
+    padding: 10px 35px
+    color: #000
+    transition: .4s
+    border-radius: 50px
+
