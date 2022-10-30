@@ -7,7 +7,7 @@ import { NgbCarousel, NgbSlideEvent, NgbSlideEventSource } from '@ng-bootstrap/n
   styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
-  title = 'angular-bootstrap-app';
+  title = 'Sandhu Coffee House';
   images = ["/assets/images/image1.jpeg", "/assets/images/image2.jpeg"];
   @ViewChild('carousel', {static : true}) carousel: NgbCarousel | undefined;
   onSlide(slideEvent: NgbSlideEvent) {
