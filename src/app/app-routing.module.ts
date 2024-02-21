@@ -11,7 +11,8 @@ const routes: Routes = [
   { path: 'welcome', component: WelcomeComponent },
   { path: 'about', component: AboutUsComponent },
   { path: 'menu', component: MenuBranchComponent },
-  { path: '', component:HomeComponent  },
+  { path: 'home', component:HomeComponent },
+  { path: '' , redirectTo: '/home',pathMatch: 'full' },
   
 ];
 
